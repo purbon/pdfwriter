@@ -26,6 +26,12 @@ public class PDFContentPage {
 	private int pageCount;
 	private boolean created;
 
+	/**
+	 * Private class used to model sections within the
+	 * content page.
+	 * @author purbon
+	 *
+	 */
 	private class Section {
 		private List<PDFPage> pages;
 		private String name;
