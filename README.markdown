@@ -2,6 +2,8 @@
 
 This is a library that simplify how to create PDF reports with [PDFBox](http://pdfbox.apache.org/), providing you with easy but powerful concepts that will help you automate this kind of PDF files.
 
+[![Build Status](https://travis-ci.org/purbon/pdfwriter.svg?branch=master)](https://travis-ci.org/purbon/pdfwriter)
+
 ## Motivation
 
 Standard PDF reporting is a common task in many organizations and usually Java libraries that deal with PDF are really low level, without providing the user with an standardized way to "just" create a report, so here is where PDFWriter is laying. With an inspiration coming from [JFreeReport](http://reporting.pentaho.com/), I decided to finally use a powerful baseline library like [PDFBox](http://pdfbox.apache.org/) and create simple but powerful components that will make my live easy when dealing with reports.
