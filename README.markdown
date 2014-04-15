@@ -18,7 +18,7 @@ But you can also find another sub components, already interesting enoughs or use
 
 * Every page can have a header that will be displayed on top of it.
 * You can also include, or not a page number at the bottom of a basic page.
-* You can include charts, powered by [JFreeChart](http://www.jfree.org/jfreechart/). Actually just a [Bar](http://www.jfree.org/jfreechart/samples.html) and a [Line](http://www.jfree.org/jfreechart/samples.html) one, but there are plans to add more.
+* You can include charts, powered by [JFreeChart](http://www.jfree.org/jfreechart/). Actually [Bar](http://www.jfree.org/jfreechart/samples.html),  [Line](http://www.jfree.org/jfreechart/samples.html) and others like the custom PQ ones. In the feature we will add more, who knows.
 * Some times you want to paint an updated, or rearranged, version of your data, so in PDFWriter you can do that by implementing a Reducer that whenever appended to a chart will be responsible of adapting your data to the new format on line.
 
 And the last, but not the less important, you've an AbstractPDFWriter class that provide you with some basic functionality usefull to create the reports, obviously you can extend it, but also if you just use it it's still enoughts to have a nice pdf output.
@@ -129,7 +129,7 @@ public class PDFRecordWriter  extends AbstractPDFWriter {
 
 ### Documentation
 
-A part from this simple README file you can take a look to our [javadoc](site/apidocs/index.html), there you're going to find a description that might be usefull whenever you want to use this library in your code. I know this is not much of documentation, but I aim to include more as soon as I can.
+A part from this simple README file you can take a look to our [javadoc](pdfwriter/site/apidocs/index.html), there you're going to find a description that might be usefull whenever you want to use this library in your code. I know this is not much of documentation, but I aim to include more as soon as I can.
 
 ## Contributing
 
