@@ -1,0 +1,11 @@
+com.purbon.pdfwriter
+com.purbon.pdfwriter.chart
+com.purbon.pdfwriter.chart.Impl
+com.purbon.pdfwriter.chart.Impl.dicts
+com.purbon.pdfwriter.chart.Impl.keys
+com.purbon.pdfwriter.chart.extensions.jfreechart
+com.purbon.pdfwriter.chart.reducer
+com.purbon.pdfwriter.chart.reducer.array
+com.purbon.pdfwriter.example
+com.purbon.pdfwriter.stream
+com.purbon.pdfwriter.table
